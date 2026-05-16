@@ -1,3 +1,6 @@
+import subprocess, sys
+subprocess.check_call([sys.executable, "-m", "pip", "install", "websockets==12.0", "-q"])
+
 import asyncio
 import websockets
 import json
